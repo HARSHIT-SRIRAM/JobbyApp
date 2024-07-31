@@ -26,7 +26,8 @@ class Login extends Component {
     event.preventDefault();
     const { username, password } = this.state;
     const userDetails = { username, password };
-    const url = "https://apis.ccbp.in/login";
+    const url =
+      "https://cors-anywhere.herokuapp.com/https://apis.ccbp.in/login";
     const options = {
       method: "POST",
       headers: {

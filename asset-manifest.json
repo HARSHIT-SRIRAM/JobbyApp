@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jobbyapp/static/css/main.85fa3468.css",
+    "main.js": "/jobbyapp/static/js/main.9f845fcc.js",
+    "static/js/453.14ca6435.chunk.js": "/jobbyapp/static/js/453.14ca6435.chunk.js",
+    "index.html": "/jobbyapp/index.html",
+    "main.85fa3468.css.map": "/jobbyapp/static/css/main.85fa3468.css.map",
+    "main.9f845fcc.js.map": "/jobbyapp/static/js/main.9f845fcc.js.map",
+    "453.14ca6435.chunk.js.map": "/jobbyapp/static/js/453.14ca6435.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85fa3468.css",
+    "static/js/main.9f845fcc.js"
+  ]
+}

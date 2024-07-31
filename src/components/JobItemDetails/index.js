@@ -65,7 +65,7 @@ const JobItemDetails = () => {
   const getJobItemDetails = useCallback(async () => {
     setJobDetailsApiStatus(apiStatusConstants.inProgress);
     const jwtToken = Cookies.get("jwt_token");
-    const apiUrl = `/jobs/${id}`;
+    const apiUrl = `https://cors-anywhere.herokuapp.com/https://apis.ccbp.in/jobs/${id}`;
     const options = {
       headers: {
         Authorization: `Bearer ${jwtToken}`,
